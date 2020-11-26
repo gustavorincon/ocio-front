@@ -6,15 +6,25 @@ body{
 }
 
 .gradient {
-    background: rgb(207, 241, 213);
-background: linear-gradient(
-    135deg,
-    rgb(209, 107, 66) 0%,
-    rgb(175, 123, 88) 80%,
-
-);
+    background: rgb(83, 94, 75);
+    background: -webkit-linear-gradient(top left, rgb(70, 77, 65), rgba(147, 223, 140, 1.0));
+    background: -moz-linear-gradient(top left, rgb(87, 97, 80), rgba(147, 223, 140, 1.0));
+    background: linear-gradient(to bottom right, rgb(99, 109, 92), rgb(203, 238, 199));
 }
 .page-header{
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-size: 1.25rem;
+    color: rgb(247, 236, 236);
+}
+
+.howwork ul{
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.howwork ul li{
+    padding-left: 2rem;
+    background-image: url("assets/images/check.svg");
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
 }

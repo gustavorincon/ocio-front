@@ -5,12 +5,16 @@ body{
     font-size: 1rem;
 }
 
-gradient {
-    background: rgb(0, 97, 12);
+.gradient {
+    background: rgb(207, 241, 213);
 background: linear-gradient(
     135deg,
     rgb(209, 107, 66) 0%,
     rgb(175, 123, 88) 80%,
 
 );
+}
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.25rem;
 }

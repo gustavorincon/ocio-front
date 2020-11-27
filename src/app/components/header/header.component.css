@@ -1,8 +1,19 @@
 .bg-dark {
     background: transparent !important;
+    color: green !important;
     transition: 0.57s ease;
 }
 
 .bg-dark.scrolled {
-    background: #3b3a3a !important;
+    background: #ebe6e6 !important;
+    color: green !important;
+    font-size: 2rem;
 }
+
+.navg a.scrolled{
+    color: #283521!important;  
+    font-size: 23px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+  }
